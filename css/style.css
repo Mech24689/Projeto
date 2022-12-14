@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 6em;
+}
+
+html, body{
+    height: 100vh;
+}
+
+.navbar{
+    height: 12%;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(165, 42, 42, 0.432);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7%;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 50%;
+}
+
+.areaIntro{
+    height: 100%;
+    background:linear-gradient(45deg, #222, #555);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.areaIntro h1{
+    font-size: 70%;
+}
+
+.areaIntro .info{
+    height: 60%;
+    width: 80%;
+    background-color: gray;
+}
+
+.areaSearch{
+    height: 100%;
+    background-color: turquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.search{
+    height: 10%;
+    width: 40%;
+    background-color: rgba(214, 70, 33, 0.603);
+    border: 1 solid black;
+    outline: none;
+    font-size: 30%;
+    color: #fff;
+    padding: 2%;
+}
+
+.areaProduct{
+    width: 80%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    gap: 25px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.product{
+    width: 25%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: gray;
+}
+
+.product p{
+    font-size: 45%;
+}
+
+.product img{
+    width: 40%;
+}
